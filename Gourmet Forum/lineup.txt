@@ -1,7 +1,0 @@
-Gourmet Forum
-
-1. home page that have several options to choose from such as: Enter the form, What is special in our job
-
-2. the form page will contain things like phone number, Full name in english,full name in arabic and email
-
-3. the special in our job offer section will highlight the pros of the job and what are the requirments of the job
