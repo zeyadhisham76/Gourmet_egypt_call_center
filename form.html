@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="gourmet.jpg" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=DM+Serif+Text:ital@0;1&family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&family=Libre+Barcode+39+Text&family=Monoton&family=Oswald:wght@200..700&family=Staatliches&family=Ultra&family=Yeseva+One&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Gourmet Egypt Call Center</title>
+</head>
+<body>
+    <div id="header">
+    <img src="gourmet.jpg" alt="gourmet egypt" height="200" width="200">
+    <div id="optionsContainer">
+        <a class="choice" href="index.html">Home</a>
+        <br>
+        <a class="choice" href="about.html">About</a>
+        <br>
+        <a class="choice" href="form.html">Form</a>
+    </div>
+    </div>
+    <hr>
+    <div id="knowBetter">
+        <span>
+        <h2>Enter The Survey, to earn a chance to be a part of our Team</h2>
+        By entering this survey here, We will get in touch with you shortly
+        <br>
+        To schedule your interview and get to know you better
+        </span>
+    </div>
+    <form id="myForm" action="https://formspree.io/f/mgvnobdz" method="POST">
+        <div id="formContainer">
+        <h2 class="labels">Full Name</h2>
+        <h4 class="labels">Kindly write the name correctly</h4>
+        <input class="inputs" id="englishInput" name="full_name" required>
+        <h2 class="labels">Phone Number</h2>
+        <input class="inputs" id="phoneNumber" name="phone_number" required>
+        <h2 class="labels">Email</h2>
+        <input class="inputs" id="emailInput" type="email" name="email_address" required>
+        <br>
+        <label for="maleGender">Male</label>
+        <input class="gender" name="gender" value="Male" type="radio" id="maleGender">
+        <br>
+        <label for="femaleGender">Female</label>
+        <input class="gender" name="gender" value="Female" type="radio" id="femaleGender">
+        <br>
+        <label>Education</label>
+        <select name="education" id="eduStatus" name="eduaction_status">
+            <option value="graduated">Graduated</option>
+            <option value="Undergraduate">Undergraduate</option>
+        </select>
+        <br>
+        <label for="bday">Birth Date</label>
+        <input type="date" id="bday" name="birthday"> <Br>
+            <br>
+        <button id="submitBtn" type="submit">Submit</button>
+    </div>
+    </form>
+    <script src="index.js"></script>
+    <footer>
+        For any Questions or inquiries
+        <br>
+        Kindly contact our friendly customer service through the hotline
+        <br>
+        or through our live chat service which is accessable by downloading our application
+        <br>
+        Hotline: 19339
+    </footer>
+</body>
+</html>
