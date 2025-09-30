@@ -5,3 +5,17 @@ Gourmet Forum
 2. the form page will contain things like phone number, Full name in english,full name in arabic and email
 
 3. the special in our job offer section will highlight the pros of the job and what are the requirments of the job
+
+Gourmet forum paragraph on LinkedIn
+
+I'm glad to announce my first ever project, showcasing a website that that
+
+demonstrates the Gourmet Egypt Call center roles, main goal and the nature of the work, 
+
+and all the elements are shown with the use of HTML and CSS and the form page where the user enters his/her info 
+
+such as full name, phone number and email and several entries shown on the website and the form uses HTML, CSS and 
+
+also JavaScript, of course, this is not the full project
+
+and this is the MVP and I will of course continue to work on it
